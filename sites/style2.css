@@ -1,1 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#020659;
+    
+  }
+  .botao{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translate(-50%,-50%);
 
+  }
+  .btn{
+    position: relative;
+    display: block;
+    color: hsl(182, 66%, 28%);;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #2B3FFE;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+  }
+  main{
+      margin: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+ .texto{
+    width: 250px;
+    height: 150px;
+    border: 25px solid;
+    border-color: rgb(24, 77, 121) rgb(24, 77, 121) rgb(24, 77, 121) rgb(24, 77, 121);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(52, 231, 156)
+
+ }
+  

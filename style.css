@@ -6,7 +6,6 @@
 body{
     flex-direction: column;
     display: flex;
-
 }
 header{
     display: flex;
@@ -18,7 +17,7 @@ header{
 main {
     flex-grow: 1;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-content: flex-start;
     display: flex;
  
 }
